@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-sora: "Sora", sans-serif;
+  color-scheme: light;
+}
 
+* {
+  scroll-behavior: smooth;
+}
+
+/* 
+body {
+  background-image: url("/images/grid.png");
+  background-repeat: repeat;
+} */
